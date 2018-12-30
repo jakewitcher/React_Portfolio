@@ -19,7 +19,7 @@ class Projects extends React.Component<{}, IProjectsState> {
         return (
             <div>
                 {
-                    projects.map((project) => <Project project={project} />)
+                    projects.map((project) => <Project project={project} key={project} />)
                 }
             </div>
         )

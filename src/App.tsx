@@ -1,5 +1,5 @@
 import * as React from 'react';
-import NavBar from './components/NavBar';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import RecentWork from './components/RecentWork';
 import Skills from './components/Skills';
@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <Navbar />
         <Home />
         <RecentWork />
         <Skills />
