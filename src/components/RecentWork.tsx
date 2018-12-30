@@ -1,16 +1,14 @@
-import * as React from 'react';
-import Title from './Title';
-import Projects from './Projects';
+import * as React from "react";
+import Title from "./Title";
+import Projects from "./Projects";
 
 const RecentWork = () => {
-    return (
-        <div>
-            <Title
-                title='Recent Work'
-            />
-            <Projects />
-        </div>
-    )
+  return (
+    <div>
+      <Title title="Recent Work" />
+      <Projects />
+    </div>
+  );
 };
 
 export default RecentWork;

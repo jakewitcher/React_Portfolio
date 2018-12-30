@@ -1,16 +1,16 @@
-import * as React from 'react';
+import * as React from "react";
 
 interface IProjectProps {
-    project: string;
+  project: string;
 }
 
 const Project = (props: IProjectProps) => {
-    const { project } = props;
-    return (
-        <div>
-            <p>{project}</p>
-        </div>
-    );
-}
+  const { project } = props;
+  return (
+    <div>
+      <p>{project}</p>
+    </div>
+  );
+};
 
 export default Project;

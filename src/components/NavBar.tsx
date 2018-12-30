@@ -1,48 +1,50 @@
-import * as React from 'react';
+import * as React from "react";
 
 interface INavbarState {
-    linkClass: string;
-    isToggled: boolean;
+  linkClass: string;
+  isToggled: boolean;
 }
 
 class Navbar extends React.Component {
-    state = {
-        linkClass: 'navbar__link',
-        isToggled: true,
-    }
+  state = {
+    linkClass: "navbar__link",
+    isToggled: true
+  };
 
-    toggleNav = () => {
-        let { isToggled } = this.state;
-        this.setState({ isToggled: !isToggled });
-        isToggled ? this.setState({ linkClass: 'navbar__link--show' }) : this.setState({ linkClass: 'navbar__link' });
-    }
+  toggleNav = () => {
+    let { isToggled } = this.state;
+    this.setState({ isToggled: !isToggled });
+    isToggled
+      ? this.setState({ linkClass: "navbar__link--show" })
+      : this.setState({ linkClass: "navbar__link" });
+  };
 
-    render() {
-        return (
-            <div className='navbar'>
-                <div className="navbar__brand">
-                    <p>JW</p>
-                </div>
-                <i onClick={this.toggleNav} className="fas fa-bars navbar__hamburger" />
-                <div className="navbar__link-box">
-                    <div className={this.state.linkClass}>
-                        <p className="navbar__link-text">Home</p>
-                    </div>
-                    <div className={this.state.linkClass}>
-                        <p className="navbar__link-text">Recent Work</p>
-                    </div>
-                    <div className={this.state.linkClass}>
-                        <p className="navbar__link-text">Skills</p>
-                    </div>
-                    <div className={this.state.linkClass}>
-                        <p className="navbar__link-text">Recommendations</p>
-                    </div>
-                    <div className={this.state.linkClass}>
-                        <p className="navbar__link-text">Contact</p>
-                    </div>
-                </div>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="navbar">
+        <div className="navbar__brand">
+          <p>JW</p>
+        </div>
+        <i onClick={this.toggleNav} className="fas fa-bars navbar__hamburger" />
+        <div className="navbar__link-box">
+          <div className={this.state.linkClass}>
+            <p className="navbar__link-text">Home</p>
+          </div>
+          <div className={this.state.linkClass}>
+            <p className="navbar__link-text">Recent Work</p>
+          </div>
+          <div className={this.state.linkClass}>
+            <p className="navbar__link-text">Skills</p>
+          </div>
+          <div className={this.state.linkClass}>
+            <p className="navbar__link-text">Recommendations</p>
+          </div>
+          <div className={this.state.linkClass}>
+            <p className="navbar__link-text">Contact</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 export default Navbar;
