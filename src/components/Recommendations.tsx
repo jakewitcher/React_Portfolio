@@ -1,6 +1,6 @@
 import * as React from "react";
-import Title from "./Title";
 import Quote from "./Quote";
+import Title from "./Title";
 
 const Recommendations = () => {
   return (

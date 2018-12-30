@@ -1,6 +1,6 @@
 import * as React from "react";
-import Title from "./Title";
 import Projects from "./Projects";
+import Title from "./Title";
 
 const RecentWork = () => {
   return (

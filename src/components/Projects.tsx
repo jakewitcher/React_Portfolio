@@ -6,11 +6,11 @@ interface IProjectsState {
 }
 
 class Projects extends React.Component<{}, IProjectsState> {
-  state = {
+  public state = {
     projects: ["project 1", "project 2", "project 3"]
   };
 
-  render() {
+  public render() {
     const { projects } = this.state;
     return (
       <div>

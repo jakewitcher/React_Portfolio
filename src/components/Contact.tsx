@@ -1,6 +1,6 @@
 import * as React from "react";
-import Title from "./Title";
 import Social from "./Social";
+import Title from "./Title";
 
 const Contact = () => {
   return (

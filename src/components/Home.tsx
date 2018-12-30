@@ -1,6 +1,6 @@
 import * as React from "react";
-import Title from "./Title";
 import Image from "./Image";
+import Title from "./Title";
 
 const Home = () => (
   <div>

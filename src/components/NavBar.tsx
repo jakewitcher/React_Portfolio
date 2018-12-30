@@ -6,20 +6,20 @@ interface INavbarState {
 }
 
 class Navbar extends React.Component {
-  state = {
-    linkClass: "navbar__link",
-    isToggled: true
+  public state = {
+    isToggled: true,
+    linkClass: "navbar__link"
   };
 
-  toggleNav = () => {
-    let { isToggled } = this.state;
+  public toggleNav = () => {
+    const { isToggled } = this.state;
     this.setState({ isToggled: !isToggled });
     isToggled
       ? this.setState({ linkClass: "navbar__link--show" })
       : this.setState({ linkClass: "navbar__link" });
   };
 
-  render() {
+  public render() {
     return (
       <div className="navbar">
         <div className="navbar__brand">
