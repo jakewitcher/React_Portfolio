@@ -1,0 +1,15 @@
+.home-image-box {
+  background: $gray-2;
+  border-radius: $radius-2;
+  box-shadow: $shadow-2;
+  padding: $size-7;
+}
+
+.home-image {
+  border: $size-1 solid $gray-8;
+  border-radius: $radius-2;
+  box-shadow: $shadow-3;
+  height: $size-13;
+  margin-right: -$size-10;
+  width: $size-13;
+}

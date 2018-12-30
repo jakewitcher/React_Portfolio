@@ -3,9 +3,17 @@ import Quote from "./Quote";
 import Title from "./Title";
 
 const Recommendations = () => {
+  const recommendationsTitleClasses = {
+    subtitleClass: "",
+    titleBoxClass: "",
+    titleClass: ""
+  };
   return (
     <div>
-      <Title title="Recommendations" />
+      <Title
+        title="Recommendations"
+        componentClasses={recommendationsTitleClasses}
+      />
       <Quote
         quote="good job"
         name="John Son"

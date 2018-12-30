@@ -13,8 +13,8 @@
 }
 
 .navbar__brand {
-  background: $gray-9;
-  border-radius: 2px;
+  background: $primary-8;
+  border-radius: $radius-1;
   color: $gray-1;
   font-size: $size-4;
   margin: 0 $size-4;
@@ -24,7 +24,7 @@
 
 .navbar__brand:hover,
 .navbar__brand:focus {
-  background: $gray-8;
+  background: $primary-7;
 }
 
 .navbar__link-box {

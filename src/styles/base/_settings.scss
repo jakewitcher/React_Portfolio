@@ -4,31 +4,31 @@
 
 // gray scale
 $white: white;
-$gray-1: hsl(35, 2%, 98%);
-$gray-2: hsl(35, 2%, 90%);
-$gray-3: hsl(35, 2%, 80%);
-$gray-4: hsl(35, 2%, 65%);
-$gray-5: hsl(35, 2%, 50%);
-$gray-6: hsl(35, 2%, 40%);
-$gray-7: hsl(35, 2%, 30%);
-$gray-8: hsl(35, 2%, 20%);
-$gray-9: hsl(35, 2%, 10%);
+$gray-1: hsl(180, 5%, 98%);
+$gray-2: hsl(180, 5%, 90%);
+$gray-3: hsl(180, 5%, 80%);
+$gray-4: hsl(180, 5%, 65%);
+$gray-5: hsl(180, 5%, 50%);
+$gray-6: hsl(180, 5%, 40%);
+$gray-7: hsl(180, 5%, 30%);
+$gray-8: hsl(180, 5%, 20%);
+$gray-9: hsl(180, 5%, 10%);
 
 // primary
-$primary-1: hsl(180, 85%, 90%);
-$primary-2: hsl(180, 75%, 85%);
-$primary-3: hsl(185, 75%, 80%);
-$primary-4: hsl(185, 65%, 65%);
-$primary-5: hsl(185, 55%, 50%);
-$primary-6: hsl(185, 65%, 40%);
-$primary-7: hsl(185, 75%, 30%);
-$primary-8: hsl(180, 85%, 20%);
-$primary-9: hsl(180, 85%, 10%);
+$primary-1: hsl(180, 55%, 95%);
+$primary-2: hsl(180, 55%, 90%);
+$primary-3: hsl(185, 50%, 80%);
+$primary-4: hsl(185, 50%, 65%);
+$primary-5: hsl(185, 45%, 50%);
+$primary-6: hsl(185, 50%, 40%);
+$primary-7: hsl(185, 50%, 30%);
+$primary-8: hsl(180, 55%, 20%);
+$primary-9: hsl(180, 55%, 10%);
 
 // secondary
-$secondary-1: hsl(145, 85%, 90%);
-$secondary-2: hsl(145, 75%, 85%);
-$secondary-3: hsl(140, 75%, 80%);
+$secondary-1: hsl(145, 70%, 95%);
+$secondary-2: hsl(145, 70%, 90%);
+$secondary-3: hsl(140, 70%, 80%);
 $secondary-4: hsl(135, 65%, 65%);
 $secondary-5: hsl(130, 55%, 50%);
 $secondary-6: hsl(135, 65%, 40%);
@@ -89,8 +89,8 @@ $shadow-5: 0 20px 40px hsla(0, 0%, 0%, 0.2);
 // =========================================================
 // border radius
 // =========================================================
-$radius-1: 1rem;
-$radius-2: 2rem;
+$radius-1: 0.2rem;
+$radius-2: 0.4rem;
 
 // =========================================================
 // screen sizes
@@ -103,5 +103,5 @@ $breakpoint-4: 120rem;
 // =========================================================
 // fonts
 // =========================================================
-$header: "Roboto", sans-serif;
-$text: "Raleway", sans-serif;
+$header: "Muli", sans-serif;
+$text: "Muli", sans-serif;
