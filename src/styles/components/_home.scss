@@ -1,6 +1,9 @@
 .home {
   display: flex;
   justify-content: space-around;
+  margin: $size-10 auto $size-12 auto;
+  max-width: 100rem;
+  padding: 0 $size-4;
 }
 
 .home__title-box {
@@ -12,7 +15,7 @@
 }
 
 .home__title {
-  color: $primary-7;
+  color: $primary-9;
   font-family: $header;
   font-size: 7.2rem;
   font-weight: 700;
@@ -22,7 +25,7 @@
 }
 
 .home__subtitle {
-  color: $gray-3;
+  color: $secondary-6;
   font-family: $header;
   font-size: $size-6;
   font-weight: 300;
@@ -36,17 +39,17 @@
 }
 
 .home__text-box {
-  background: $primary-1;
-  border: $size-1 solid $primary-2;
+  background: $gray-1;
   border-radius: $radius-2;
   box-shadow: $shadow-1;
   margin: $size-4 0;
   padding: $size-5 $size-4;
+  text-align: center;
   width: $size-14;
 }
 
 .home__text {
-  color: $primary-8;
+  color: $gray-8;
   font-family: $text;
   font-size: $size-4;
   margin: 0;

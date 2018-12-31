@@ -1,0 +1,27 @@
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin: $size-5;
+}
+
+.project__info-box {
+  display: flex;
+  flex-direction: column;
+  margin: $size-3;
+  padding: $size-3;
+}
+
+.project__name {
+  border-bottom: $size-1 solid $secondary-5;
+  color: $white;
+  font-family: $text;
+  font-size: $size-4;
+  letter-spacing: 0.2rem;
+  padding: $size-1;
+}
+
+.project__description {
+  color: $primary-1;
+  font-family: $text;
+  font-size: $size-3;
+}

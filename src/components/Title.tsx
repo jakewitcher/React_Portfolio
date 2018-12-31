@@ -3,7 +3,7 @@ import * as React from "react";
 interface IComponentClasses {
   titleClass: string;
   titleBoxClass: string;
-  subtitleClass: string;
+  subtitleClass?: string;
 }
 
 interface ITitleProps {
@@ -18,7 +18,7 @@ const Title = (props: ITitleProps) => {
   return (
     <div className={titleBoxClass}>
       <h1 className={titleClass}>{title}</h1>
-      <h2 className={subtitleClass}>{subTitle}</h2>
+      {subTitle && <h2 className={subtitleClass}>{subTitle}</h2>}
     </div>
   );
 };

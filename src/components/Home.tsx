@@ -14,9 +14,9 @@ const Home = () => {
     imageClass: "home-image"
   };
   const subText =
-    "Producing well-crafted, interactive web applications with React, Redux, and Typescript.";
+    "Producing well-crafted, interactive web applications with React.";
   return (
-    <div className="content-container home">
+    <div className="home">
       <div className="home__text-container">
         <Title
           title="<Jake Witcher />"

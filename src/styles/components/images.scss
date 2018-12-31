@@ -1,15 +1,24 @@
 .home-image-box {
-  background: $gray-2;
+  background: $primary-7;
   border-radius: $radius-2;
   box-shadow: $shadow-2;
   padding: $size-7;
 }
 
 .home-image {
-  border: $size-1 solid $gray-8;
   border-radius: $radius-2;
   box-shadow: $shadow-3;
   height: $size-13;
   margin-right: -$size-10;
   width: $size-13;
+}
+
+.project-image-box {
+  background: none;
+}
+
+.project-image {
+  border-radius: $radius-2;
+  box-shadow: $shadow-3;
+  width: $size-14;
 }

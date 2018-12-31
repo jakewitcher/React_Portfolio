@@ -4,12 +4,11 @@ import Title from "./Title";
 
 const RecentWork = () => {
   const recentWorkTitleClasses = {
-    subtitleClass: "",
-    titleBoxClass: "",
-    titleClass: ""
+    titleBoxClass: "recent-works__title-box",
+    titleClass: "recent-works__title"
   };
   return (
-    <div>
+    <div className="recent-works">
       <Title title="Recent Work" componentClasses={recentWorkTitleClasses} />
       <Projects />
     </div>

@@ -1,21 +1,51 @@
 import * as React from "react";
 import Project from "./Project";
 
+interface IProjectData {
+  name: string;
+  description: string;
+  image: string;
+}
+
 interface IProjectsState {
-  projects: string[];
+  projects: IProjectData[];
 }
 
 class Projects extends React.Component<{}, IProjectsState> {
   public state = {
-    projects: ["project 1", "project 2", "project 3"]
+    projects: [
+      {
+        description:
+          "Must go faster. Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists. Eventually, you do plan to have dinosaurs on your dinosaur tour, right? You know what? It is beets. I've crashed into a beet truck. Yes, Yes, without the oops!",
+        image: "/images/portfolio-home.jpg",
+        name: "portfolio"
+      },
+      {
+        description:
+          "Do you have any idea how long it takes those cups to decompose. I was part of something special. So you two dig up, dig up dinosaurs? God help us, we're in the hands of engineers. Checkmate... Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.",
+        image: "/images/meal-to-list-edit.jpg",
+        name: "meal to list"
+      },
+      {
+        description:
+          "We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! I was part of something special. Hey, take a look at the earthlings. Goodbye! You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?",
+        image: "/images/expensify-dashboard.jpg",
+        name: "expensify"
+      }
+    ]
   };
 
   public render() {
     const { projects } = this.state;
     return (
-      <div>
+      <div className="projects">
         {projects.map(project => (
-          <Project project={project} key={project} />
+          <Project
+            project={project.name}
+            projectDescription={project.description}
+            image={project.image}
+            key={project.name}
+          />
         ))}
       </div>
     );
