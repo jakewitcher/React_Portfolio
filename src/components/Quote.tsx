@@ -1,21 +1,23 @@
 import * as React from "react";
 
 interface IQuoteProps {
-  quote: string;
-  name: string;
-  position: string;
-  company: string;
+  quote: {
+    quote: string;
+    name: string;
+    position: string;
+    company: string;
+  };
 }
 
 const Quote = (props: IQuoteProps) => {
-  const { quote, name, position, company } = props;
+  const { quote, name, position, company } = props.quote;
   return (
-    <div>
-      <p>{`"${quote}"`}</p>
-      <div>
-        <p>{name}</p>
-        <p>{position}</p>
-        <p>{company}</p>
+    <div className="quote__box">
+      <p className="quote">{`"${quote}"`}</p>
+      <div className="quote__author-details">
+        <p className="quote__author">{name}</p>
+        <p className="quote__author-position">{position}</p>
+        <p className="quote__author-company">{company}</p>
       </div>
     </div>
   );

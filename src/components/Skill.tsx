@@ -1,18 +1,26 @@
 import * as React from "react";
 
 interface ISkillProps {
-  markdown: string;
+  skills: string[];
   title: string;
 }
 
-const Skill = (props: ISkillProps) => {
-  const { markdown, title } = props;
+const DeveloperSkills = (props: ISkillProps) => {
+  const { skills, title } = props;
   return (
-    <div>
-      <h3>{title}</h3>
-      <p>{markdown}</p>
+    <div className="skill">
+      <div className="skill__title-box">
+        <h3 className="skill__title">{title}</h3>
+      </div>
+      <div className="skill__box">
+        {skills.map((skill: string) => (
+          <p className="skill__name" key={skill}>
+            {skill}
+          </p>
+        ))}
+      </div>
     </div>
   );
 };
 
-export default Skill;
+export default DeveloperSkills;

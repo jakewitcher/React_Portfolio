@@ -1,4 +1,4 @@
-.recent-works {
+.recommendations {
   align-items: center;
   background: $primary-7;
   border-top: $size-1 solid $primary-5;
@@ -7,7 +7,7 @@
   padding-bottom: $size-8;
 }
 
-.recent-works__title-box {
+.recommendations__title-box {
   align-self: flex-start;
   background: $white;
   border: $size-1 solid $primary-5;
@@ -15,12 +15,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: $size-7;
-  margin-top: -$size-6;
+  margin: -$size-6 0 0 $size-7;
   padding: $size-2 $size-6;
 }
 
-.recent-works__title {
+.recommendations__title {
   color: $primary-7;
   font-family: $header;
   font-size: $size-6;
@@ -28,4 +27,10 @@
   letter-spacing: 0.3rem;
   margin: 0;
   padding: 0;
+}
+
+.recommendations__quotes {
+  display: flex;
+  flex-direction: column;
+  margin: $size-8 0;
 }

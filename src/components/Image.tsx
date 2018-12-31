@@ -1,22 +1,16 @@
 import * as React from "react";
 
-interface IComponentClasses {
-  imageClass: string;
-  imageBoxClass: string;
-}
-
 interface IImageProps {
   src: string;
   alt: string;
-  componentClasses: IComponentClasses;
+  parentComponent: string;
 }
 
 const Image = (props: IImageProps) => {
-  const { src, alt } = props;
-  const { imageClass, imageBoxClass } = props.componentClasses;
+  const { src, alt, parentComponent: component } = props;
   return (
-    <div className={imageBoxClass}>
-      <img src={src} alt={alt} className={imageClass} />
+    <div className={`${component}-image-box`}>
+      <img src={src} alt={alt} className={`${component}-image`} />
     </div>
   );
 };

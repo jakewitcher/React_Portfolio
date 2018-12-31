@@ -4,31 +4,22 @@ import Text from "./Text";
 import Title from "./Title";
 
 const Home = () => {
-  const homeTitleClasses = {
-    subtitleClass: "home__subtitle",
-    titleBoxClass: "home__title-box",
-    titleClass: "home__title"
-  };
-  const homeImageClasses = {
-    imageBoxClass: "home-image-box",
-    imageClass: "home-image"
-  };
   const subText =
-    "Producing well-crafted, interactive web applications with React.";
+    "Hi, my name is Jake and I'm a software developer who loves crafting web applications with React. I like to spend my free time learning new programming languages, patterns, and frameworks and building my own side projects. I'm also a big fan of colaborating with other talented developers.";
   return (
     <div className="home">
       <div className="home__text-container">
         <Title
           title="<Jake Witcher />"
-          componentClasses={homeTitleClasses}
+          parentComponent="home"
           subTitle="Front-End Developer"
         />
-        <Text subText={subText} />
+        <Text subText={subText} parentComponent="home" />
       </div>
       <Image
         src="/images/headshot.jpg"
         alt="Headshot of Jake Witcher"
-        componentClasses={homeImageClasses}
+        parentComponent="home"
       />
     </div>
   );

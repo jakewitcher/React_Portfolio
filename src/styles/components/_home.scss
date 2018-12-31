@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 0;
-  margin-left: -$size-10;
+  margin-left: -$size-9;
 }
 
 .home__title {
@@ -25,7 +25,7 @@
 }
 
 .home__subtitle {
-  color: $secondary-6;
+  color: $primary-5;
   font-family: $header;
   font-size: $size-6;
   font-weight: 300;
@@ -35,22 +35,20 @@
 .home__text-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .home__text-box {
-  background: $gray-1;
-  border-radius: $radius-2;
-  box-shadow: $shadow-1;
-  margin: $size-4 0;
+  border-left: $size-1 solid $secondary-1;
+  margin-top: $size-6;
   padding: $size-5 $size-4;
-  text-align: center;
   width: $size-14;
 }
 
 .home__text {
-  color: $gray-8;
+  color: $gray-7;
   font-family: $text;
   font-size: $size-4;
+  line-height: 2;
   margin: 0;
 }

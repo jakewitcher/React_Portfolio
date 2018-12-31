@@ -1,13 +1,12 @@
-.recent-works {
+.skills {
   align-items: center;
-  background: $primary-7;
   border-top: $size-1 solid $primary-5;
   display: flex;
   flex-direction: column;
   padding-bottom: $size-8;
 }
 
-.recent-works__title-box {
+.skills__title-box {
   align-self: flex-start;
   background: $white;
   border: $size-1 solid $primary-5;
@@ -15,12 +14,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: $size-7;
-  margin-top: -$size-6;
+  margin: -$size-6 0 0 $size-7;
   padding: $size-2 $size-6;
 }
 
-.recent-works__title {
+.skills__title {
   color: $primary-7;
   font-family: $header;
   font-size: $size-6;
@@ -28,4 +26,11 @@
   letter-spacing: 0.3rem;
   margin: 0;
   padding: 0;
+}
+
+.skills__set-box {
+  display: flex;
+  justify-content: space-around;
+  margin: $size-9 $size-7;
+  width: 100rem;
 }

@@ -2,13 +2,14 @@ import * as React from "react";
 
 interface ITextProps {
   subText: string;
+  parentComponent: string;
 }
 
 const Text = (props: ITextProps) => {
-  const { subText } = props;
+  const { subText, parentComponent: component } = props;
   return (
-    <div className="home__text-box">
-      <p className="home__text">{subText}</p>
+    <div className={`${component}__text-box`}>
+      <p className={`${component}__text`}>{subText}</p>
     </div>
   );
 };

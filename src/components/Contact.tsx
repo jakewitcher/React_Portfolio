@@ -3,17 +3,13 @@ import Social from "./Social";
 import Title from "./Title";
 
 const Contact = () => {
-  const contactTitleClasses = {
-    subtitleClass: "",
-    titleBoxClass: "",
-    titleClass: ""
-  };
   return (
-    <div>
-      <Title title="Get in Touch" componentClasses={contactTitleClasses} />
-      <Social social="Twitter" />
+    <div className="contact">
+      <Title title="Get in Touch" parentComponent="contact" />
+      <Social social="LinkedIn" />
       <Social social="GitHub" />
       <Social social="Blog" />
+      <Social social="Twitter" />
       <Social social="Email" />
     </div>
   );

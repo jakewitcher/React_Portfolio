@@ -7,11 +7,6 @@ interface IProjectProps {
   image: string;
 }
 
-const projectImageClasses = {
-  imageBoxClass: "project-image-box",
-  imageClass: "project-image"
-};
-
 const Project = (props: IProjectProps) => {
   const { project, projectDescription, image } = props;
   return (
@@ -19,7 +14,7 @@ const Project = (props: IProjectProps) => {
       <Image
         src={image}
         alt={`screenshot of ${project} application`}
-        componentClasses={projectImageClasses}
+        parentComponent="project"
       />
       <div className="project__info-box">
         <h3 className="project__name">{project}</h3>
