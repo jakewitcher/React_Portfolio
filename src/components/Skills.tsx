@@ -24,7 +24,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <Title title={"Skills"} parentComponent="skills" />
       <div className="skills__set-box">
         <Skill title="Software" skills={developerSkills} />

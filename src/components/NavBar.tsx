@@ -22,26 +22,30 @@ class Navbar extends React.Component {
   public render() {
     return (
       <div className="navbar">
-        <div className="navbar__brand">
-          <p>JW</p>
-        </div>
+        <a className="navbar__brand" href="#">
+          <p className="navbar__brand-text">JW</p>
+        </a>
         <i onClick={this.toggleNav} className="fas fa-bars navbar__hamburger" />
         <div className="navbar__link-box">
-          <div className={this.state.linkClass}>
+          <a className={this.state.linkClass} href="#">
             <p className="navbar__link-text">Home</p>
-          </div>
-          <div className={this.state.linkClass}>
+          </a>
+
+          <a className={this.state.linkClass} href="#recent-works">
             <p className="navbar__link-text">Recent Work</p>
-          </div>
-          <div className={this.state.linkClass}>
+          </a>
+
+          <a className={this.state.linkClass} href="#skills">
             <p className="navbar__link-text">Skills</p>
-          </div>
-          <div className={this.state.linkClass}>
+          </a>
+
+          <a className={this.state.linkClass} href="#recommendations">
             <p className="navbar__link-text">Recommendations</p>
-          </div>
-          <div className={this.state.linkClass}>
+          </a>
+
+          <a className={this.state.linkClass} href="#contact">
             <p className="navbar__link-text">Contact</p>
-          </div>
+          </a>
         </div>
       </div>
     );

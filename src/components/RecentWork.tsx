@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const RecentWork = () => {
   return (
-    <div className="recent-works">
+    <div id="recent-works" className="recent-works">
       <Title title="Recent Work" parentComponent="recent-works" />
       <Projects />
     </div>

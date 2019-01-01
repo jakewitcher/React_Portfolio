@@ -18,7 +18,7 @@ const Recommendations = () => {
       "Jake was great to work with. His knowledge of React was clear in his ability to answer questions and work through problems with the rest of the team."
   };
   return (
-    <div className="recommendations">
+    <div id="recommendations" className="recommendations">
       <Title title="Recommendations" parentComponent="recommendations" />
       <div className="recommendations__quotes">
         <Quote quote={quote1} />

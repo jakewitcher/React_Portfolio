@@ -2,14 +2,15 @@ import * as React from "react";
 
 interface ISocialProps {
   socialIcon: string;
+  socialUrl: string;
 }
 
 const Social = (props: ISocialProps) => {
-  const { socialIcon } = props;
+  const { socialIcon, socialUrl } = props;
   return (
-    <div className="social">
-      <i className={`${socialIcon} social__icon`} />
-    </div>
+    <a href={socialUrl} rel="noopener noreferrer" className="social">
+      <i className={socialIcon} />
+    </a>
   );
 };
 

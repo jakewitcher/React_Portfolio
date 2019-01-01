@@ -1,8 +1,14 @@
 .social {
-  margin: $size-5;
-}
-
-.social__icon {
   color: $primary-5;
   font-size: $size-7;
+  margin: $size-5;
+  outline: none;
+  transition-property: color, transform;
+  transition-duration: 0.25s;
+}
+
+.social:hover,
+.social:focus {
+  color: $primary-6;
+  transform: scale(1.2);
 }

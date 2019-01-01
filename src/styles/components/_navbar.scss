@@ -7,7 +7,7 @@
   flex-direction: row;
   font-family: $text;
   justify-content: space-between;
-  height: $size-8;
+  height: 8rem;
   margin: 0;
   padding: 0 $size-3;
   position: fixed;
@@ -16,18 +16,26 @@
 }
 
 .navbar__brand {
-  background: $primary-8;
+  background: $primary-7;
+  border: $size-1 solid $primary-5;
   border-radius: $radius-1;
-  color: $gray-1;
-  font-size: $size-4;
+  color: $white;
+  font-size: $size-6;
+  line-height: 1;
   margin: 0 $size-4;
-  padding: 0 $size-3;
+  padding: $size-3 $size-5;
   text-decoration: none;
+}
+
+.navbar__brand-text {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar__brand:hover,
 .navbar__brand:focus {
-  background: $primary-7;
+  background: $primary-6;
+  outline: none;
 }
 
 .navbar__link-box {
