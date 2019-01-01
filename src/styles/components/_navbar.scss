@@ -1,6 +1,6 @@
 .navbar {
   align-items: center;
-  background: $gray-2;
+  background: $gray-3;
   box-sizing: border-box;
   box-shadow: $shadow-1;
   display: flex;
@@ -61,7 +61,7 @@
 
 .navbar__link:hover,
 .navbar__link:focus {
-  border-bottom: 3px solid $gray-4;
+  border-bottom: 3px solid $gray-5;
   margin-bottom: -3px;
   outline: none;
 }

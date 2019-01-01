@@ -1,22 +1,44 @@
 import * as React from "react";
-import Image from "./Image";
 
 interface IProjectProps {
   image: string;
   project: string;
   projectDescription: string;
   projectTools: string;
+  projectSourceCode: string;
+  projectUrl: string;
 }
 
 const Project = (props: IProjectProps) => {
-  const { project, projectDescription, projectTools, image } = props;
+  const {
+    project,
+    projectDescription,
+    projectSourceCode,
+    projectTools,
+    projectUrl
+  } = props;
   return (
     <div className="project">
-      <Image
-        src={image}
-        alt={`screenshot of ${project} application`}
-        parentComponent="project"
-      />
+      <div className="project__image-box">
+        <div className="project__link-box">
+          {projectUrl && (
+            <a
+              className="project__link"
+              href={projectUrl}
+              rel="noopener noreferrer"
+            >
+              View Site
+            </a>
+          )}
+          <a
+            className="project__link"
+            href={projectSourceCode}
+            rel="noopener noreferrer"
+          >
+            View Source Code
+          </a>
+        </div>
+      </div>
       <div className="project__info-box">
         <h3 className="project__name">{project}</h3>
         <p className="project__description">{projectDescription}</p>

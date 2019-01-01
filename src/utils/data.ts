@@ -9,7 +9,9 @@ interface IProject {
   description: string;
   image: string;
   name: string;
+  sourceCode: string;
   tools: string;
+  url: string;
 }
 
 export const quotes: IQuote[] = [
@@ -35,28 +37,36 @@ export const projects: IProject[] = [
       "'Meal to List' is a responsive meal planning app that allows the user to save a list of meal ingredients and then later combine several meals into a single grocery list. My wife and I often forget about meals we've enjoyed in the past and neither of us likes making a grocery list. This application solves both problems.",
     image: "/images/meal-to-list-edit.jpg",
     name: "meal to list",
-    tools: "React, Redux, Saga, React Router, Firebase, SASS"
+    sourceCode: "https://github.com/jakewitcher/React_Meal-to-List",
+    tools: "React, Redux, Saga, React Router, Firebase, SASS",
+    url: "https://react-meal-to-list.herokuapp.com"
   },
   {
     description:
       "'Expensify' is a responsive expense tracking application and the final project in the 'Complete React Developer' course by Andrew Mead. It allows the user to record expenses and sort through them by date, amount, and description.",
     image: "/images/expensify-dashboard.jpg",
     name: "expensify",
-    tools: "React, Redux, Thunk, React Router, Firebase, SASS"
+    sourceCode: "https://github.com/jakewitcher/react_course_expensify",
+    tools: "React, Redux, Thunk, React Router, Firebase, SASS",
+    url: "https://react-2-expensify.herokuapp.com"
   },
   {
     description:
       "'The Pantry' is a proof of concept web application that makes donating to local shelters easy. The code for this project was written by John Son, Melissa Thompson, and myself at the 2018 HackCincy hackathon and won the Cincinnati prize track sponsored by Calibrity. The source code is available on GitHub but the project has yet to be deployed.",
     image: "/images/the-pantry-map.jpg",
     name: "the pantry",
+    sourceCode: "https://github.com/jakewitcher/hackcincy-2018-frontend",
     tools:
-      "React, Redux, Saga, React Router, Styled Components, Google Maps and Google Places APIs"
+      "React, Redux, Saga, React Router, Styled Components, Google Maps and Google Places APIs",
+    url: ""
   },
   {
     description:
       "If you are reading or listening to this text, then you're already getting a taste of my portfolio site! It was the first project I built incorporating TypeScript with React and is styled by hand with care using CSS and SASS.",
     image: "/images/portfolio-home.jpg",
     name: "portfolio",
-    tools: "React, TypeScript, SASS"
+    sourceCode: "https://github.com/jakewitcher/React_Portfolio",
+    tools: "React, TypeScript, SASS",
+    url: ""
   }
 ];
