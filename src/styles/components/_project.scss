@@ -7,7 +7,6 @@
 }
 
 .project__image-box {
-  background-image: url(/images/meal-to-list-edit.jpg);
   background-size: cover;
   border-radius: $radius-2;
   box-shadow: $shadow-3;
@@ -17,6 +16,22 @@
   transition: background-image 1.25s ease;
   transition-delay: 0.25s;
   width: $size-14;
+}
+
+.project__image-box--meal {
+  background-image: url(/images/meal-to-list-edit.jpg);
+}
+
+.project__image-box--expensify {
+  background-image: url(/images/expensify-dashboard.jpg);
+}
+
+.project__image-box--pantry {
+  background-image: url(/images/the-pantry-map.jpg);
+}
+
+.project__image-box--portfolio {
+  background-image: url(/images/portfolio-home.jpg);
 }
 
 .project__image-box:hover {
@@ -57,7 +72,7 @@
 
 .project__link:focus,
 .project__link:hover {
-  background: $primary-4;
+  background: $primary-5;
 }
 
 .project__info-box {

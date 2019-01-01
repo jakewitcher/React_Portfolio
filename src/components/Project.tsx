@@ -11,6 +11,7 @@ interface IProjectProps {
 
 const Project = (props: IProjectProps) => {
   const {
+    image,
     project,
     projectDescription,
     projectSourceCode,
@@ -19,7 +20,7 @@ const Project = (props: IProjectProps) => {
   } = props;
   return (
     <div className="project">
-      <div className="project__image-box">
+      <div className={`project__image-box project__image-box--${image}`}>
         <div className="project__link-box">
           {projectUrl && (
             <a
