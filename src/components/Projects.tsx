@@ -8,6 +8,7 @@ const Projects = () => (
       <Project
         project={project.name}
         projectDescription={project.description}
+        projectTools={project.tools}
         image={project.image}
         key={project.name}
       />

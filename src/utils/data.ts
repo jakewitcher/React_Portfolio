@@ -9,6 +9,7 @@ interface IProject {
   description: string;
   image: string;
   name: string;
+  tools: string;
 }
 
 export const quotes: IQuote[] = [
@@ -31,26 +32,31 @@ export const quotes: IQuote[] = [
 export const projects: IProject[] = [
   {
     description:
-      "Do you have any idea how long it takes those cups to decompose. I was part of something special. So you two dig up, dig up dinosaurs? God help us, we're in the hands of engineers. Checkmate... Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.",
+      "'Meal to List' is a responsive meal planning app that allows the user to save a list of meal ingredients and then later combine several meals into a single grocery list. My wife and I often forget about meals we've enjoyed in the past and neither of us likes making a grocery list. This application solves both problems.",
     image: "/images/meal-to-list-edit.jpg",
-    name: "meal to list"
+    name: "meal to list",
+    tools: "React, Redux, Saga, React Router, Firebase, SASS"
   },
   {
     description:
-      "We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! I was part of something special. Hey, take a look at the earthlings. Goodbye! You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?",
+      "'Expensify' is a responsive expense tracking application and the final project in the 'Complete React Developer' course by Andrew Mead. It allows the user to record expenses and sort through them by date, amount, and description.",
     image: "/images/expensify-dashboard.jpg",
-    name: "expensify"
+    name: "expensify",
+    tools: "React, Redux, Thunk, React Router, Firebase, SASS"
   },
   {
     description:
-      "I was part of something special. Did he just throw my cat out of the window? You know what? It is beets. I've crashed into a beet truck. You really think you can fly that thing? Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.",
+      "'The Pantry' is a proof of concept web application that makes donating to local shelters easy. The code for this project was written by John Son, Melissa Thompson, and myself at the 2018 HackCincy hackathon and won the Cincinnati prize track sponsored by Calibrity. The source code is available on GitHub but the project has yet to be deployed.",
     image: "/images/the-pantry-map.jpg",
-    name: "the pantry"
+    name: "the pantry",
+    tools:
+      "React, Redux, Saga, React Router, Styled Components, Google Maps and Google Places APIs"
   },
   {
     description:
-      "Must go faster. Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists. Eventually, you do plan to have dinosaurs on your dinosaur tour, right? You know what? It is beets. I've crashed into a beet truck. Yes, Yes, without the oops!",
+      "If you are reading or listening to this text, then you're already getting a taste of my portfolio site! It was the first project I built incorporating TypeScript with React and is styled by hand with care using CSS and SASS.",
     image: "/images/portfolio-home.jpg",
-    name: "portfolio"
+    name: "portfolio",
+    tools: "React, TypeScript, SASS"
   }
 ];

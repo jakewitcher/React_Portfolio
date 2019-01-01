@@ -15,10 +15,13 @@
 
 .project-image-box {
   background: none;
+  margin: 0;
+  padding: 0;
 }
 
 .project-image {
   border-radius: $radius-2;
   box-shadow: $shadow-3;
+  margin: 0;
   width: $size-14;
 }
