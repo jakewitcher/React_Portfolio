@@ -24,6 +24,13 @@ const Recommendations = () => {
         <Quote quote={quote1} />
         <Quote quote={quote2} />
       </div>
+      <div className="recommendations__requests-box">
+        <p className="recommendations__requests">
+          <span className="recommendations__requests-hyphen">-</span>
+          complete letters of recommendation are available upon request
+          <span className="recommendations__requests-hyphen">-</span>
+        </p>
+      </div>
     </div>
   );
 };

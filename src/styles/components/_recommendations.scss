@@ -4,7 +4,7 @@
   border-top: $size-1 solid $primary-5;
   display: flex;
   flex-direction: column;
-  padding-bottom: $size-8;
+  padding-bottom: 0;
 }
 
 .recommendations__title-box {
@@ -33,4 +33,27 @@
   display: flex;
   flex-direction: column;
   margin: $size-8 0;
+}
+
+.recommendations__requests-box {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  margin: 0 $size-4;
+  padding: 0;
+}
+
+.recommendations__requests {
+  align-self: flex-start;
+  color: $primary-2;
+  font-family: $text;
+  font-size: $size-4;
+}
+
+.recommendations__requests-hyphen {
+  align-self: flex-end;
+  color: $secondary-4;
+  font-family: $text;
+  font-size: $size-5;
+  margin: 0 $size-2;
 }
