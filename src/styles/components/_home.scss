@@ -15,7 +15,7 @@
 }
 
 .home__title {
-  color: $primary-9;
+  color: $primary-7;
   font-family: $header;
   font-size: 7.2rem;
   font-weight: 700;
@@ -25,7 +25,7 @@
 }
 
 .home__subtitle {
-  color: $primary-5;
+  color: $gray-5;
   font-family: $header;
   font-size: $size-6;
   font-weight: 300;
@@ -39,7 +39,7 @@
 }
 
 .home__text-box {
-  border-left: $size-1 solid $secondary-1;
+  border-left: $size-1 solid $secondary-2;
   margin-top: $size-6;
   padding: $size-5 $size-4;
   width: $size-14;

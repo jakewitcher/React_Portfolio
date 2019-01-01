@@ -26,3 +26,18 @@
   margin: 0;
   padding: 0;
 }
+
+.contact__social-links {
+  display: flex;
+  margin: $size-8 0 $size-9 0;
+}
+
+.contact__brackets {
+  color: $secondary-3;
+  font-family: $text;
+  font-size: $size-10;
+  font-weight: 300;
+  line-height: 0.5;
+  margin: 0 $size-6;
+  padding: 0;
+}

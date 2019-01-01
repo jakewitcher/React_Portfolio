@@ -1,14 +1,14 @@
 import * as React from "react";
 
 interface ISocialProps {
-  social: string;
+  socialIcon: string;
 }
 
 const Social = (props: ISocialProps) => {
-  const { social } = props;
+  const { socialIcon } = props;
   return (
-    <div>
-      <p>{social}</p>
+    <div className="social">
+      <i className={`${socialIcon} social__icon`} />
     </div>
   );
 };
