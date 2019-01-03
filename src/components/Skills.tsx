@@ -15,11 +15,10 @@ const Skills = () => {
     "Jest"
   ];
   const managementSkills: string[] = [
-    "Visual Merchandising Manager - 10 years",
+    "Manager - 10 years",
     "Regional Manager - 5 years",
     "Manage region of 8 stores",
-    "Train new Visual Managers",
-    "Manage annual budget of $42,000",
+    "Train new Managers",
     "Wrote department training material for expense reporting and payroll software"
   ];
 

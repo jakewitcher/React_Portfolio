@@ -4,7 +4,8 @@
   margin: $size-5;
   outline: none;
   transition-property: color, transform;
-  transition-duration: 0.25s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
 }
 
 .social:hover,

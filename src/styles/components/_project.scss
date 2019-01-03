@@ -68,9 +68,9 @@
   padding: $size-2;
   text-align: center;
   text-decoration: none;
+  transition: background 0.5s ease;
 }
 
-.project__link:focus,
 .project__link:hover {
   background: $primary-5;
 }
