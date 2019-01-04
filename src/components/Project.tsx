@@ -27,6 +27,7 @@ const Project = (props: IProjectProps) => {
               className="project__link"
               href={projectUrl}
               rel="noopener noreferrer"
+              target="_blank"
             >
               View Site
             </a>
@@ -35,6 +36,7 @@ const Project = (props: IProjectProps) => {
             className="project__link"
             href={projectSourceCode}
             rel="noopener noreferrer"
+            target="_blank"
           >
             View Source Code
           </a>
