@@ -20,7 +20,7 @@ const Project = (props: IProjectProps) => {
   } = props;
   return (
     <div className="project">
-      <a className={`project__image-box project__image-box--${image}`}>
+      <div className={`project__image-box project__image-box--${image}`}>
         <div className="project__link-box">
           {projectUrl && (
             <a
@@ -41,7 +41,7 @@ const Project = (props: IProjectProps) => {
             View Source Code
           </a>
         </div>
-      </a>
+      </div>
       <div className="project__info-box">
         <h3 className="project__name">{project}</h3>
         <p className="project__description">{projectDescription}</p>

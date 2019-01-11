@@ -1,11 +1,15 @@
 .social {
   color: $primary-5;
-  font-size: $size-7;
-  margin: $size-5;
+  font-size: $size-5;
+  margin: $size-3;
   outline: none;
   transition-property: color, transform;
   transition-duration: 0.1s;
   transition-timing-function: ease;
+  @media (min-width: $breakpoint-2) {
+    font-size: $size-7;
+    margin: $size-5;
+  }
 }
 
 .social:hover,

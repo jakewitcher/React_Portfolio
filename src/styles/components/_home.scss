@@ -1,35 +1,50 @@
 .home {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   margin: $size-10 auto $size-12 auto;
   max-width: 100rem;
   padding: 0 $size-4;
+  @media (min-width: $breakpoint-2) {
+    flex-direction: row;
+  }
 }
 
 .home__title-box {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0;
-  margin-left: -$size-9;
+  margin-top: $size-4;
+  @media (min-width: $breakpoint-2) {
+    margin: 0;
+    margin-left: -$size-9;
+    align-items: flex-start;
+  }
 }
 
 .home__title {
   color: $primary-7;
   font-family: $header;
-  font-size: 7.2rem;
+  font-size: $size-6;
   font-weight: 700;
   letter-spacing: 0.3rem;
   line-height: 1;
   margin: 0;
+  @media (min-width: $breakpoint-2) {
+    font-size: 7.2rem;
+  }
 }
 
 .home__subtitle {
   color: $gray-5;
   font-family: $header;
-  font-size: $size-6;
+  font-size: $size-4;
   font-weight: 300;
   margin: $size-3 0;
+  @media (min-width: $breakpoint-2) {
+    font-size: $size-6;
+  }
 }
 
 .home__text-container {
@@ -39,16 +54,25 @@
 }
 
 .home__text-box {
-  border-left: $size-1 solid $secondary-2;
-  margin-top: $size-6;
-  padding: $size-5 $size-4;
-  width: $size-14;
+  border-top: $size-1 solid $secondary-2;
+  margin-top: $size-2;
+  width: 100%;
+  @media (min-width: $breakpoint-2) {
+    border: none;
+    border-left: $size-1 solid $secondary-2;
+    margin-top: $size-6;
+    padding: $size-5 $size-4;
+    width: $size-14;
+  }
 }
 
 .home__text {
   color: $gray-7;
   font-family: $text;
-  font-size: $size-4;
+  font-size: $size-2;
   line-height: 2;
   margin: 0;
+  @media (min-width: $breakpoint-2) {
+    font-size: $size-4;
+  }
 }

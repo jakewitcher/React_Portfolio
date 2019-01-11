@@ -4,9 +4,13 @@
   border-radius: $radius-2;
   display: flex;
   flex-direction: column;
-  margin: $size-4;
-  padding: $size-5;
-  width: $size-14;
+  margin: 0 auto;
+  width: 80%;
+  @media (min-width: $breakpoint-2) {
+    margin: $size-4;
+    padding: $size-5;
+    width: $size-14;
+  }
 }
 
 .skill__title-box {
@@ -14,13 +18,19 @@
   display: flex;
   justify-content: center;
   padding: 0;
-  width: $size-12;
+  width: 100%;
+  @media (min-width: $breakpoint-2) {
+    width: $size-12;
+  }
 }
 
 .skill__title {
   color: $primary-7;
   font-family: $text;
-  font-size: $size-5;
+  font-size: $size-4;
+  @media (min-width: $breakpoint-2) {
+    font-size: $size-5;
+  }
 }
 
 .skill__box {

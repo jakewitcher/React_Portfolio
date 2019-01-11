@@ -3,5 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   margin: $size-7;
-  width: 100rem;
+  width: 100%;
+  @media (min-width: $breakpoint-2) {
+    width: 100rem;
+  }
 }

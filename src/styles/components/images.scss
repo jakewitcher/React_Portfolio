@@ -2,13 +2,21 @@
   background: $gradient-1;
   border-radius: $radius-2;
   box-shadow: $shadow-2;
-  padding: $size-7;
+  padding: $size-3;
+  @media (min-width: $breakpoint-2) {
+    display: block;
+    padding: $size-7;
+  }
 }
 
 .home-image {
   border-radius: $radius-2;
   box-shadow: $shadow-3;
-  height: $size-13;
-  margin-right: -$size-10;
-  width: $size-13;
+  margin: 0;
+  width: 100%;
+  @media (min-width: $breakpoint-2) {
+    margin-right: -$size-10;
+    height: $size-13;
+    width: $size-13;
+  }
 }
