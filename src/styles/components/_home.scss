@@ -81,6 +81,7 @@
 
 .home__text-box--mobile {
   border-left: $size-1 solid $secondary-2;
+  box-sizing: border-box;
   margin-top: $size-6;
   padding: $size-2;
   width: 100%;

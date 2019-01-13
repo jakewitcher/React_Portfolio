@@ -50,6 +50,26 @@ const Project = (props: IProjectProps) => {
           {projectTools}
         </p>
       </div>
+      <div className="project__link-box--mobile">
+        {projectUrl && (
+          <a
+            className="project__link--mobile"
+            href={projectUrl}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            View Site
+          </a>
+        )}
+        <a
+          className="project__link--mobile"
+          href={projectSourceCode}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View Source Code
+        </a>
+      </div>
     </div>
   );
 };
