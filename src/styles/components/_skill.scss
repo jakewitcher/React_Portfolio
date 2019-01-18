@@ -4,7 +4,8 @@
   border-radius: $radius-2;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: $size-4 auto;
+  padding: $size-5;
   width: 80%;
   @media (min-width: $breakpoint-2) {
     margin: $size-4;

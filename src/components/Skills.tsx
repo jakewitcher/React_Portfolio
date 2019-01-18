@@ -6,8 +6,8 @@ const Skills = () => {
   const developerSkills: string[] = [
     "React",
     "Redux",
-    "TypeScript",
     "JavaScript",
+    "TypeScript",
     "HTML",
     "CSS",
     "SASS",

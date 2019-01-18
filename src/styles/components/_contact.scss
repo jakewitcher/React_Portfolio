@@ -41,14 +41,14 @@
 
 .contact__brackets {
   color: $secondary-3;
-  display: none;
   font-family: $text;
-  font-size: $size-10;
+  font-size: $size-8;
   font-weight: 300;
   line-height: 0.5;
-  margin: 0 $size-6;
+  margin: 0 $size-4;
   padding: 0;
   @media (min-width: $breakpoint-2) {
     display: block;
+    font-size: $size-10;
   }
 }

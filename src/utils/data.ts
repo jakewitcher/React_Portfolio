@@ -34,7 +34,7 @@ export const quotes: IQuote[] = [
 export const projects: IProject[] = [
   {
     description:
-      "'Meal to List' is a responsive meal planning app that allows the user to save a list of meal ingredients and then later combine several meals into a single grocery list. My wife and I often forget about meals we've enjoyed in the past and neither of us likes making a grocery list. This application solves both problems.",
+      "'Meal to List' is a responsive meal planning app that allows the user to save a list of meal ingredients and then later combine several meals into a single grocery list. My wife and I often forget about meals we've enjoyed in the past and neither of us likes making a grocery list. This application was made to solve both problems.",
     image: "meal",
     name: "meal to list",
     sourceCode: "https://github.com/jakewitcher/React_Meal-to-List",
@@ -52,7 +52,7 @@ export const projects: IProject[] = [
   },
   {
     description:
-      "'The Pantry' is a proof of concept web application that makes donating to local shelters easy. The code for this project was written by John Son, Melissa Thompson, and myself at the 2018 HackCincy hackathon and won the Cincinnati prize track sponsored by Calibrity. The source code is available on GitHub but the project has yet to be deployed.",
+      "'The Pantry' is a proof of concept web application that makes donating to local shelters easy. The code for this project was written by John Son, Melissa Thompson, and myself at the 2018 HackCincy hackathon and won the Cincinnati prize track sponsored by Calibrity. The source code is available on GitHub however the project is not yet to be deployed.",
     image: "pantry",
     name: "the pantry",
     sourceCode: "https://github.com/jakewitcher/hackcincy-2018-frontend",
@@ -62,7 +62,7 @@ export const projects: IProject[] = [
   },
   {
     description:
-      "If you are reading or listening to this text, then you're already getting a taste of my portfolio site! It was the first project I built incorporating TypeScript with React and is styled by hand with care using CSS and SASS.",
+      "This website was the first project I built incorporating TypeScript with React. It is styled by hand using CSS and SASS and is hosted on Netlify.",
     image: "portfolio",
     name: "portfolio",
     sourceCode: "https://github.com/jakewitcher/React_Portfolio",

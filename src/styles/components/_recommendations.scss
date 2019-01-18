@@ -4,7 +4,14 @@
   border-top: $size-1 solid $primary-5;
   display: flex;
   flex-direction: column;
-  padding-bottom: 0;
+  padding: 0 $size-4 $size-5 $size-4;
+  @media (min-width: $breakpoint-1) {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  @media (min-width: $breakpoint-2) {
+    padding: 0;
+  }
 }
 
 .recommendations__title-box {
@@ -40,6 +47,7 @@
   display: flex;
   flex-direction: column;
   margin: 0;
+  margin-top: $size-6;
   @media (min-width: $breakpoint-2) {
     margin: $size-8 0;
   }
@@ -47,23 +55,32 @@
 
 .recommendations__requests-box {
   align-items: center;
-  align-self: flex-end;
+  align-self: center;
   display: flex;
   margin: 0 $size-4;
   padding: 0;
+  @media (min-width: $breakpoint-2) {
+    alilgn-self: flex-end;
+  }
 }
 
 .recommendations__requests {
   align-self: flex-start;
   color: $primary-2;
   font-family: $text;
-  font-size: $size-4;
+  font-size: $size-2;
+  @media (min-width: $breakpoint-2) {
+    font-size: $size-4;
+  }
 }
 
 .recommendations__requests-hyphen {
   align-self: flex-end;
   color: $secondary-4;
   font-family: $text;
-  font-size: $size-5;
+  font-size: $size-3;
   margin: 0 $size-2;
+  @media (min-width: $breakpoint-2) {
+    font-size: $size-5;
+  }
 }

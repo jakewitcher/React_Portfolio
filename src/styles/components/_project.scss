@@ -17,13 +17,13 @@
   height: $size-11 - 1.4;
   margin: 0;
   padding: 0;
-  transition: background-image 0.25s ease;
   width: 100%;
   @media (min-width: 100.4rem) and (max-width: 104.4rem) {
     height: $size-13;
   }
   @media (min-width: $breakpoint-2) {
     height: $size-12;
+    transition: background-image 0.25s ease;
     width: $size-14;
   }
 }
@@ -45,8 +45,10 @@
 }
 
 .project__image-box:hover {
-  background-color: $primary-6;
-  background-image: none;
+  @media (min-width: $breakpoint-2) {
+    background-color: $primary-6;
+    background-image: none;
+  }
 }
 
 .project__link-box {

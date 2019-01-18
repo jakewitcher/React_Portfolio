@@ -11,6 +11,9 @@
   font-style: italic;
   line-height: 2;
   width: 100%;
+  @media (min-width: $breakpoint-1) {
+    font-size: $size-4;
+  }
   @media (min-width: $breakpoint-2) {
     border-left: $size-1 solid $secondary-4;
     font-size: $size-5;
@@ -31,6 +34,9 @@
   font-weight: 700;
   margin: 0;
   padding: 0;
+  @media (min-width: $breakpoint-1) {
+    font-size: $size-3;
+  }
   @media (min-width: $breakpoint-2) {
     font-size: $size-4;
   }
@@ -43,6 +49,9 @@
   font-weight: 300;
   margin: 0;
   padding: 0;
+  @media (min-width: $breakpoint-1) {
+    font-size: $size-3;
+  }
   @media (min-width: $breakpoint-2) {
     font-size: $size-4;
   }
@@ -54,6 +63,9 @@
   font-size: $size-2;
   margin: 0;
   padding: 0;
+  @media (min-width: $breakpoint-1) {
+    font-size: $size-3;
+  }
   @media (min-width: $breakpoint-2) {
     font-size: $size-4;
   }
