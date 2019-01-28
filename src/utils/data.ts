@@ -52,7 +52,7 @@ export const projects: IProject[] = [
   },
   {
     description:
-      "'The Pantry' is a proof of concept web application that makes donating to local shelters easy. The code for this project was written by John Son, Melissa Thompson, and myself at the 2018 HackCincy hackathon and won the Cincinnati prize track sponsored by Calibrity. The source code is available on GitHub however the project is not yet to be deployed.",
+      "'The Pantry' is a proof of concept web application that makes donating to local shelters easy. The code for this project was written by John Son, Melissa Thompson, and myself at the 2018 HackCincy hackathon and won the Cincinnati prize track sponsored by Callibrity. The source code is available on GitHub however the project is not yet to be deployed.",
     image: "pantry",
     name: "the pantry",
     sourceCode: "https://github.com/jakewitcher/hackcincy-2018-frontend",
