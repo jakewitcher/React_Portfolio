@@ -29,7 +29,7 @@ const Text = (props: ITextProps) => {
       <p className={`${component}__text`}>
         I am also an aspiring conference speaker and will be speaking at the
         Momentum Developer’s Conference in March on “Learning at the Speed of
-        JavaScript” and in April at Lamda Squared on “Function Composition in
+        JavaScript” and in April at Lambda Squared on “Function Composition in
         JS.”
       </p>
     </div>

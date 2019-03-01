@@ -38,7 +38,7 @@ export const projects: IProject[] = [
     image: "meal",
     name: "meal to list",
     sourceCode: "https://github.com/jakewitcher/React_Meal-to-List",
-    tools: "React, Redux, Saga, React Router, Firebase, SASS",
+    tools: "React, TypeScript, Redux, Saga, React Router, Firebase, SASS",
     url: "https://react-meal-to-list.herokuapp.com"
   },
   {
