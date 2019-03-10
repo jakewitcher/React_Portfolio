@@ -3,31 +3,34 @@ import Skill from "./Skill";
 import Title from "./Title";
 
 const Skills = () => {
-  const developerSkills: string[] = [
+  const technicalSkills: string[] = [
     "React",
     "Redux",
-    "JavaScript",
     "TypeScript",
+    "JavaScript",
     "HTML",
     "CSS",
     "SASS",
     "Git",
     "Jest"
   ];
-  const managementSkills: string[] = [
-    "Manager - 10 years",
-    "Regional Manager - 5 years",
-    "Manage region of 8 stores",
-    "Train new Managers",
-    "Wrote department training material for expense reporting and payroll software"
+  const interpersonalSkills: string[] = [
+    "Management - 10 years",
+    "Regional Management - 5 years",
+    "Communication",
+    "Training",
+    "Time Management",
+    "Team Leadership",
+    "Writing",
+    "Public Speaking"
   ];
 
   return (
     <div id="skills" className="skills">
       <Title title={"Skills"} parentComponent="skills" />
       <div className="skills__set-box">
-        <Skill title="Software" skills={developerSkills} />
-        <Skill title="Management" skills={managementSkills} />
+        <Skill title="Technical" skills={technicalSkills} />
+        <Skill title="Interpersonal" skills={interpersonalSkills} />
       </div>
     </div>
   );
